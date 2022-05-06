@@ -89,7 +89,7 @@ if (env === "production") {
   });
 }
 
-const serverPort = process.env.SERVER_PORT || process.env.PORT || 5000;
+const serverPort = process.env.PORT || 5000;
 // start express server on port 5000
 app.listen(serverPort, () => {
   console.log("server started on port", serverPort);
